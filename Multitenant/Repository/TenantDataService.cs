@@ -42,6 +42,41 @@ namespace Multitenant.Repository
                 throw ex;
             }
         }
+
+        public string InsertTanentInfoIntoDynamicDB(TenantDataViewModel model)
+        {
+            try
+            {
+                //string dynamicConnectionString = "Server=SHAHED\\SQLEXPRESS;Database=" + model.DatabaseName + ";Trusted_Connection=True;MultipleActiveResultSets=true";
+                DataTable dt2 = new DataTable();
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    string sql = "dbo.sprDynamicTenantInsert";
+                    using (SqlCommand sqlCmd = new SqlCommand(sql, connection))
+                    {
+                        sqlCmd.CommandType = CommandType.StoredProcedure;
+                        sqlCmd.Parameters.AddWithValue("@Name", model.TenantName);
+                        sqlCmd.Parameters.AddWithValue("@ContactNo", model.ContactNo);
+                        sqlCmd.Parameters.AddWithValue("@Email", model.Email);
+                        sqlCmd.Parameters.AddWithValue("@Address", model.Address);
+                        sqlCmd.Parameters.AddWithValue("@DatabaseName", model.DatabaseName);
+
+                        connection.Open();
+                        using (SqlDataAdapter sqlAdapter = new SqlDataAdapter(sqlCmd))
+                        {
+                            sqlAdapter.Fill(dt2);
+                        }
+                        connection.Close();
+                    }
+                }
+                return "";
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         //public DataTable CreateFile(decimal AllocateStoreSize, long TenantId, bool IsLocked, FileTypeId, FileSize)
         //{
         //    try
@@ -80,9 +115,9 @@ namespace Multitenant.Repository
                 {
                     Name = model.TenantName,
                     Address = model.Address,
-                    ContactNo = model.Emial,
-                    Email = model.Emial,
-                    DatabaseName = "",
+                    ContactNo = model.ContactNo,
+                    Email = model.Email,
+                    DatabaseName = model.DatabaseName,
                 };
                 await _context.TenantInfo.AddAsync(tenantModel);
                 await _context.SaveChangesAsync();

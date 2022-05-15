@@ -12,7 +12,7 @@ namespace Multitenant.Controllers
     public class TenantController : Controller
     {
         private readonly ITenantDataService _tenantDataService;
-        readonly TenantDataService _tenantDataServiceSP = new TenantDataService();
+        private readonly TenantDataService _tenantDataServiceSP;
 
         public TenantController(ITenantDataService _tenantDataService)
         {
@@ -32,13 +32,13 @@ namespace Multitenant.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateDatabaseAndFileTables(TenantDataViewModel model)
+        public async Task<IActionResult> CreateDatabaseAndFileTables(TenantDataViewModel model)
         {
             var result = "error";
 
             if (!ModelState.IsValid)
             {
-                string jsonString = JsonConvert.SerializeObject(Task.FromResult(_tenantDataServiceSP.CreateDatabaseAndFileTables("Part1", "DB")));
+                string jsonString = JsonConvert.SerializeObject(_tenantDataServiceSP.CreateDatabaseAndFileTables("Part1", "DB"));
                 return Ok(jsonString);
                 return Json(result);
             }

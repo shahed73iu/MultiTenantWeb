@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitenant", "Multitenant\Multitenant.csproj", "{082DA2EA-C2F5-43A6-B44A-5755F04D9413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitenant", "Multitenant\Multitenant.csproj", "{082DA2EA-C2F5-43A6-B44A-5755F04D9413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{046572F1-2611-41C7-A2B8-703615FE62D9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
