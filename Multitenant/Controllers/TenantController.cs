@@ -56,7 +56,7 @@ namespace Multitenant.Controllers
             //    result = "success";
             //}
 
-            return Json(result);
+            return View(result);
         }
     }
 }

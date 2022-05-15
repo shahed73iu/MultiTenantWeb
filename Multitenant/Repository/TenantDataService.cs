@@ -1,10 +1,18 @@
 ﻿using Microsoft.Data.SqlClient;
+using Multitenant.Data;
+using Multitenant.Models;
+using MultiTenant.Data;
 using System.Data;
 
 namespace Multitenant.Repository
 {
     public class TenantDataService : ITenantDataService
     {
+        private readonly ApplicationDbContext _context;
+        public TenantDataService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
         string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
         public DataTable CreateDatabaseAndFileTables(string DBNO, string DBName)
         {
@@ -62,10 +70,33 @@ namespace Multitenant.Repository
         //        throw ex;
         //    }
         //}
-        //public Task<object> 
-        //{
+        public async Task<MessageHelper> CreateApi(TenantDataViewModel model)
+        {
+            try
+            {
+                var countDbInfo = _context.TenantInfo.Count();
 
+                var tenantModel = new TenantInfo()
+                {
+                    Name = model.TenantName,
+                    Address = model.Address,
+                    ContactNo = model.Emial,
+                    Email = model.Emial,
+                    DatabaseName = "",
+                };
+                await _context.TenantInfo.AddAsync(tenantModel);
+                await _context.SaveChangesAsync();
 
-        //}
+                return new MessageHelper
+                {
+                    Message = "Created Successfully",
+                    StatusCode = 200
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }   
+        }
     }
 }
