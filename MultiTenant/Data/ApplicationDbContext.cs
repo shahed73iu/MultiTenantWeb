@@ -12,5 +12,6 @@ namespace Multitenant.Data
         }
 
         public DbSet<TenantInfo> TenantInfo { get; set; }
+        public DbSet<FileType> FileType { get; set; }
     }
 }

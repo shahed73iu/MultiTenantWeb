@@ -1,6 +1,6 @@
 USE [MultiTenant]
 GO
-/****** Object:  StoredProcedure [dbo].[sprCreateDatabaseAndBaseTables]    Script Date: 5/16/2022 8:23:33 AM ******/
+/****** Object:  StoredProcedure [dbo].[sprCreateDatabaseAndBaseTables]    Script Date: 5/16/2022 1:39:41 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -51,7 +51,7 @@ BEGIN
 			[TenantId] [bigint] NOT NULL,
 			[IsLocked] [bit] NOT NULL)'
 
-			select @cmd2 = 
+			select @cmd3 = 
 			'CREATE TABLE ' + @Name+ '.[dbo].[FileInfo](
 			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
 			[FileTypeId] [bigint] NOT NULL,

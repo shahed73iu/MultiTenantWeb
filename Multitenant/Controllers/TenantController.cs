@@ -22,12 +22,6 @@ namespace Multitenant.Controllers
         //[HttpGet]
         public async Task<IActionResult> Index()
         {
-
-            //TenantDataViewModel model = new TenantDataViewModel
-            //{
-            //    //Colors = await _tenantDataService.GetAll()
-            //};
-
             return View();
         }
 
@@ -43,18 +37,7 @@ namespace Multitenant.Controllers
                 return Json(result);
             }
 
-            //Color color = new Color
-            //{
-            //    Id = (int)model.id,
-            //    name = model.name
-            //};
-
-            //bool data = await _tenantDataService.SaveColor(color);
-
-            //if (data == true)
-            //{
-            //    result = "success";
-            //}
+            
 
             return View(result);
         }
