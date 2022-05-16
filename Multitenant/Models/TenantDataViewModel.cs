@@ -8,5 +8,9 @@
         public string Email { get; set; }
         public string Address { get; set; }
         public string DatabaseName { get; set; }
+
+        public long? FileTypeId { get; set; }
+        public List<Data.FileType> fileDDL { get; set; }
+        public List<MultiTenant.Data.TenantInfo> TenantDDL { get; set; }
     }
 }

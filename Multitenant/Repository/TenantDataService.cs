@@ -131,7 +131,37 @@ namespace Multitenant.Repository
             catch (Exception ex)
             {
                 throw ex;
-            }   
+            }
+        }
+
+        public async Task<List<Data.FileType>> GetFileTypes()
+        {
+            try
+            {
+
+                List<Data.FileType> fileDDL = _context.FileType.ToList();
+                return fileDDL;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public async Task<List<MultiTenant.Data.TenantInfo>> GetTenants()
+        {
+            try
+            {
+
+                List<MultiTenant.Data.TenantInfo> TenantDDL = _context.TenantInfo.ToList();
+                return TenantDDL;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
     }
 }

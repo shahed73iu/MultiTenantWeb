@@ -22,7 +22,13 @@ namespace Multitenant.Controllers
         //[HttpGet]
         public async Task<IActionResult> Index()
         {
-            return View();
+            TenantDataViewModel model = new TenantDataViewModel
+            {
+                fileDDL = await _tenantDataService.GetFileTypes(),
+                TenantDDL = await _tenantDataService.GetTenants(),
+            };
+
+            return View(model);
         }
 
         [HttpPost]
