@@ -1,0 +1,66 @@
+USE [MultiTenant]
+GO
+/****** Object:  StoredProcedure [dbo].[sprCreateDatabaseAndBaseTables]    Script Date: 5/16/2022 8:23:33 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Shahed>
+-- Create date: <16-05-2022>
+-- Description:	<Dynamic Insert TenantInfo table>
+-- =============================================
+ALTER PROCEDURE [dbo].[sprCreateDatabaseAndBaseTables]
+	-- Add the parameters for the stored procedure here
+	@DBNO nvarchar(max), @DBName nvarchar(max)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    DECLARE @DatabaseNO VARCHAR(max) = @DBNO
+    DECLARE @ReturnMessage VARCHAR(max)
+
+		DECLARE @Name VARCHAR(MAX) = 'DB' + @DatabaseNO
+
+	IF NOT EXISTS (SELECT * FROM master.sys.sysdatabases WHERE [name] = @Name) 
+	BEGIN
+		DECLARE @SqlQuery NVARCHAR(150) = 'CREATE DATABASE ' + @Name
+		EXECUTE (@SqlQuery)
+		--@ReturnMessage = 'New Database Created !'
+	END
+
+	  Declare @cmd varchar(MAX)
+	  Declare @cmd2 varchar(MAX)
+	  Declare @cmd3 varchar(MAX)
+
+
+			select @cmd = 'CREATE TABLE ' +@Name+ '.[dbo].[TenantInfo2](
+			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+			[Name] [nvarchar](max) NOT NULL,
+			[ContactNo] [nvarchar](max) NOT NULL,
+			[Email] [nvarchar](max) NOT NULL,
+			[Address] [nvarchar](max) NOT NULL,
+			[DatabaseName] [nvarchar](max) NOT NULL)'
+
+
+			select @cmd2 = 'CREATE TABLE '+ @Name+ '.dbo.[FileStoreInfo](
+			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+			[AllocateStoreSize] [decimal] NOT NULL,
+			[TenantId] [bigint] NOT NULL,
+			[IsLocked] [bit] NOT NULL)'
+
+			select @cmd2 = 
+			'CREATE TABLE ' + @Name+ '.[dbo].[FileInfo](
+			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+			[FileTypeId] [bigint] NOT NULL,
+			[FileSize] [decimal] NOT NULL,
+			[TenantId] [bit] NOT NULL)'
+
+	  exec(@cmd)
+	  exec(@cmd2)
+	  exec(@cmd3)
+	  SELECT 'Created Successfully'
+	  
+END

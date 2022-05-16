@@ -1,0 +1,47 @@
+USE [MultiTenant]
+GO
+/****** Object:  StoredProcedure [dbo].[sprDynamicTenantInsert]    Script Date: 5/16/2022 8:28:26 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Shahed>
+-- Create date: <16-05-2022>
+-- Description:	<Dynamic Insert TenantInfo table>
+-- =============================================
+ALTER PROCEDURE [dbo].[sprDynamicTenantInsert]
+	-- Add the parameters for the stored procedure here
+	@Name nvarchar(500),
+	@ContactNo nvarchar(500), 
+	@Email nvarchar(500),
+	@Address nvarchar(500),
+	@DatabaseName nvarchar(500)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    declare @autoId bigint
+	declare @autoId2 bigint
+
+	 Declare @cmd varchar(MAX)
+
+	select @cmd = 'INSERT INTO ['+@DatabaseName+'].'+ '[dbo].[TenantInfo] ([Name]
+			   ,[ContactNo]
+			   ,[Email]
+			   ,[Address]
+			   ,[DatabaseName])
+		 VALUES
+			   (@Name
+			   ,@ContactNo
+			   ,@Email
+			   ,@Address
+			   ,@DatabaseName)'
+
+			   exec(@cmd)
+
+		set @autoid = SCOPE_IDENTITY()
+		Select 'Created Successfully'
+END
