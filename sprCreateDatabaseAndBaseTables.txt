@@ -36,7 +36,7 @@ BEGIN
 	  Declare @cmd3 varchar(MAX)
 
 
-			select @cmd = 'CREATE TABLE ' +@Name+ '.[dbo].[TenantInfo2](
+			select @cmd = 'CREATE TABLE ' +@Name+ '.[dbo].[TenantInfo](
 			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
 			[Name] [nvarchar](max) NOT NULL,
 			[ContactNo] [nvarchar](max) NOT NULL,

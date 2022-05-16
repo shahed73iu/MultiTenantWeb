@@ -144,10 +144,11 @@ namespace Multitenant.Areas.Identity.Pages.Account
                     //bool isNeedNewDB = ((count % 10 == 0) && (count / 10 >= 1)) ? true : false;
                     //bool isNeedNewDB = ((count / 10) % 2) == 0 && ((count / 10) >= 1 || (count / 10) == 0) ? true : false;
                     bool isNeedNewDB = count % 10 == 0 ? true : false;
+                    var DbCount = ((count / 10) + 1);
 
                     if (isNeedNewDB)
                     {
-                        _tenantDataService.CreateDatabaseAndFileTables(((count / 10) + 1).ToString(), "");
+                        _tenantDataService.CreateDatabaseAndFileTables(DbCount.ToString(), "");
                     }
 
                     TenantDataViewModel tenant = new TenantDataViewModel
@@ -156,7 +157,7 @@ namespace Multitenant.Areas.Identity.Pages.Account
                         ContactNo = Input.ContactNo,
                         Address = Input.Address,
                         Email = Input.Email,
-                        DatabaseName = "DB_" + Math.Ceiling(Convert.ToDecimal(count / 10)).ToString(),
+                        DatabaseName = "DB" + DbCount.ToString() //Math.Ceiling(Convert.ToDecimal(count / 10)).ToString(),
                     };
 
                     await _tenantDataService.CreateApi(tenant);

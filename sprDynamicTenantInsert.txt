@@ -12,36 +12,20 @@ GO
 -- =============================================
 ALTER PROCEDURE [dbo].[sprDynamicTenantInsert]
 	-- Add the parameters for the stored procedure here
-	@Name nvarchar(500),
-	@ContactNo nvarchar(500), 
-	@Email nvarchar(500),
-	@Address nvarchar(500),
-	@DatabaseName nvarchar(500)
+	@Name nvarchar(MAX),
+	@ContactNo nvarchar(MAX), 
+	@Email nvarchar(MAX),
+	@Address nvarchar(MAX),
+	@DatabaseName nvarchar(MAX)
 AS
 BEGIN
-	-- SET NOCOUNT ON added to prevent extra result sets from
-	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
-
     declare @autoId bigint
-	declare @autoId2 bigint
 
-	 Declare @cmd varchar(MAX)
+	Declare @cmd varchar(MAX)
+		select @cmd = 'insert into '+ @DatabaseName +'.dbo.TenantInfo (Name,ContactNo,Address,Email,DatabaseName) 
+		values ('''+@Name+''','''+@ContactNo+''','''+@Address+''','''+@Email+''','''+@DatabaseName+''')'
+		exec(@cmd)
 
-	select @cmd = 'INSERT INTO ['+@DatabaseName+'].'+ '[dbo].[TenantInfo] ([Name]
-			   ,[ContactNo]
-			   ,[Email]
-			   ,[Address]
-			   ,[DatabaseName])
-		 VALUES
-			   (@Name
-			   ,@ContactNo
-			   ,@Email
-			   ,@Address
-			   ,@DatabaseName)'
-
-			   exec(@cmd)
-
-		set @autoid = SCOPE_IDENTITY()
-		Select 'Created Successfully'
+	Select 'Created Successfully'
 END
