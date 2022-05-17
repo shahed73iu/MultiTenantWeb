@@ -1,57 +1,49 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Multitenant.Data;
-using Multitenant.Repository;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.EntityFrameworkCore;
+    using Multitenant.Data;
+    using Multitenant.Repository;
 
-var builder = WebApplication.CreateBuilder(args);
-//var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
+    var builder = WebApplication.CreateBuilder(args);
 
-var connection = builder.Configuration.GetConnectionString("DefaultConnection");
+    var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//    options.UseSqlServer(connection));
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(connection));
+    builder.Services.AddTransient<ITenantDataService, TenantDataService>();
+    builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-//    .AddEntityFrameworkStores<ApplicationDbContext>();
+    builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+        .AddEntityFrameworkStores<ApplicationDbContext>();
+    builder.Services.AddControllersWithViews();
 
-// Add services to the container.
+    builder.Services.AddScoped<ITenantDataService, TenantDataService>();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connection));
-builder.Services.AddTransient<ITenantDataService, TenantDataService>();
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+    var app = builder.Build();
+    //IWebHostEnvironment env = app.Environment;
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddControllersWithViews();
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseMigrationsEndPoint();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Home/Error");
+        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+        app.UseHsts();
+    }
 
-builder.Services.AddScoped<ITenantDataService, TenantDataService>();
+    app.UseHttpsRedirection();
+    app.UseStaticFiles();
 
-var app = builder.Build();
+    app.UseRouting();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseMigrationsEndPoint();
-}
-else
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+    app.UseAuthentication();
+    app.UseAuthorization();
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+    app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Tenant}/{action=Index}/{id?}");
+    app.MapRazorPages();
 
-app.UseRouting();
-
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Tenant}/{action=Index}/{id?}");
-app.MapRazorPages();
-
-app.Run();
+    app.Run();

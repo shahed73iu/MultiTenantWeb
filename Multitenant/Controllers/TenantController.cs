@@ -13,10 +13,12 @@ namespace Multitenant.Controllers
     {
         private readonly ITenantDataService _tenantDataService;
         private readonly TenantDataService _tenantDataServiceSP;
+        IWebHostEnvironment _webHostEnvironment;
 
-        public TenantController(ITenantDataService _tenantDataService)
+        public TenantController(ITenantDataService _tenantDataService, IWebHostEnvironment webHostEnvironment)
         {
             this._tenantDataService = _tenantDataService;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         //[HttpGet]
@@ -34,18 +36,30 @@ namespace Multitenant.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateDatabaseAndFileTables(TenantDataViewModel model)
         {
-            var result = "error";
+            //var result = "error";
 
             if (!ModelState.IsValid)
             {
-                string jsonString = JsonConvert.SerializeObject(_tenantDataServiceSP.CreateDatabaseAndFileTables("Part1", "DB"));
-                return Ok(jsonString);
-                return Json(result);
+
+                if (model.inputFile != null)
+                {
+
+                    string folder = "Files";
+                    folder += Guid.NewGuid().ToString() + "_"+ model.inputFile.FileName;
+                    string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
+                    await model.inputFile.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
+                    long length = new System.IO.FileInfo(serverFolder).Length;
+
+
+
+                }
+
+                //string jsonString = JsonConvert.SerializeObject(_tenantDataServiceSP.CreateDatabaseAndFileTables("Part1", "DB"));
+                //return Ok(jsonString);
+                //return Json(result);
             }
 
-            
-
-            return View(result);
+            return Ok();
         }
     }
 }
