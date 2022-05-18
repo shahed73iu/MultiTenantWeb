@@ -45,13 +45,21 @@ namespace Multitenant.Controllers
                 {
 
                     string folder = "Files";
-                    folder += Guid.NewGuid().ToString() + "_"+ model.inputFile.FileName;
+                    folder += Guid.NewGuid().ToString() + "_" + model.inputFile.FileName;
                     string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
                     await model.inputFile.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
-                    long length = new System.IO.FileInfo(serverFolder).Length;
+                    decimal FileSize = new System.IO.FileInfo(serverFolder).Length;
+                    var AllocatedSize = (decimal) Helper.BytesToGigabytes((int)FileSize);
 
-
-
+                    var DbName = await _tenantDataService.GetDbName(model.TenantId);
+                    if ((DbName == null) || (DbName.Length == 0))
+                    {
+                        throw new Exception("Database Name not found");
+                    }
+                    else
+                    {
+                        _tenantDataService.CreateFile(model.FileTypeId, FileSize, model.TenantId, DbName,AllocatedSize,false);
+                    }
                 }
 
                 //string jsonString = JsonConvert.SerializeObject(_tenantDataServiceSP.CreateDatabaseAndFileTables("Part1", "DB"));

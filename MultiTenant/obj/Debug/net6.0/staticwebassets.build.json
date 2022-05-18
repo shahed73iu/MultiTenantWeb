@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OafbGuhcqeXuyvggrUlFFt8YNJgr4+vgDtdgQP6wsP8=",
+  "Hash": "7oCFE7kBLW5Hh6ZsNRY+8G8Rk45Ao1fz3eW2moE+0dg=",
   "Source": "Multitenant",
   "BasePath": "_content/Multitenant",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Multitenant\\wwwroot",
       "Source": "Multitenant",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\SHAHED\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.5\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Multitenant.styles.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Multitenant.styles.css",
       "SourceId": "Multitenant",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "Multitenant.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Multitenant.styles.css"
+      "OriginalItemSpec": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Multitenant.styles.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Multitenant.bundle.scp.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Multitenant.bundle.scp.css",
       "SourceId": "Multitenant",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "Multitenant.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Multitenant.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Multitenant.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\css\\site.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\favicon.ico",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1105,10 +1105,44 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files191c0399-3cab-40fa-82ef-e86444b2b1bd_eyes.jpg",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files06174448-b3cb-42e7-9b2b-afca9637854c_43515600_176094339934912_738610581069627392_o.jpg",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files06174448-b3cb-42e7-9b2b-afca9637854c_43515600_176094339934912_738610581069627392_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files06174448-b3cb-42e7-9b2b-afca9637854c_43515600_176094339934912_738610581069627392_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files1339bf6f-2a98-4acd-9613-dda9012b65fb_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files1339bf6f-2a98-4acd-9613-dda9012b65fb_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files1339bf6f-2a98-4acd-9613-dda9012b65fb_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files191c0399-3cab-40fa-82ef-e86444b2b1bd_eyes.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "Files191c0399-3cab-40fa-82ef-e86444b2b1bd_eyes.jpg",
       "AssetKind": "All",
@@ -1122,10 +1156,112 @@
       "OriginalItemSpec": "wwwroot\\Files191c0399-3cab-40fa-82ef-e86444b2b1bd_eyes.jpg"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files6395cb24dc09c37c938ffc541d0290d4_400x400.jpeg50c577ed-d577-4b57-9fb7-d8fa23e0a287",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files1ce46038-202f-435e-b0b9-f4c71fe60c12_43515600_176094339934912_738610581069627392_o.jpg",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files1ce46038-202f-435e-b0b9-f4c71fe60c12_43515600_176094339934912_738610581069627392_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files1ce46038-202f-435e-b0b9-f4c71fe60c12_43515600_176094339934912_738610581069627392_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files2783db47-975d-4af3-a8be-d78d667a5851_123178885_1646263305544822_2673133688521442711_n.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files2783db47-975d-4af3-a8be-d78d667a5851_123178885_1646263305544822_2673133688521442711_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files2783db47-975d-4af3-a8be-d78d667a5851_123178885_1646263305544822_2673133688521442711_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files4e9910ca-4a4b-4fc8-a92e-08a6dd60a7c0_43383999_176094973268182_7874937199957901312_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files4e9910ca-4a4b-4fc8-a92e-08a6dd60a7c0_43383999_176094973268182_7874937199957901312_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files4e9910ca-4a4b-4fc8-a92e-08a6dd60a7c0_43383999_176094973268182_7874937199957901312_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files52ca12db-7813-41bd-b71a-31f027af95b8_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files52ca12db-7813-41bd-b71a-31f027af95b8_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files52ca12db-7813-41bd-b71a-31f027af95b8_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files588e2020-8ad3-4b49-8665-931ec9f16e31_43515600_176094339934912_738610581069627392_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files588e2020-8ad3-4b49-8665-931ec9f16e31_43515600_176094339934912_738610581069627392_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files588e2020-8ad3-4b49-8665-931ec9f16e31_43515600_176094339934912_738610581069627392_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files60b7d665-de53-492f-a829-b3d7b1e6b3d5_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files60b7d665-de53-492f-a829-b3d7b1e6b3d5_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files60b7d665-de53-492f-a829-b3d7b1e6b3d5_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files6395cb24dc09c37c938ffc541d0290d4_400x400.jpeg50c577ed-d577-4b57-9fb7-d8fa23e0a287",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "Files6395cb24dc09c37c938ffc541d0290d4_400x400.jpeg50c577ed-d577-4b57-9fb7-d8fa23e0a287",
       "AssetKind": "All",
@@ -1139,10 +1275,180 @@
       "OriginalItemSpec": "wwwroot\\Files6395cb24dc09c37c938ffc541d0290d4_400x400.jpeg50c577ed-d577-4b57-9fb7-d8fa23e0a287"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesdb5f23bb-861f-4f78-9100-3f7cfdac226c_1652589703299.pdf",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files781990ee-0f60-4cc7-b0d3-a730fd88a1ce_46317793_195925404618472_7468263574381527040_o.jpg",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files781990ee-0f60-4cc7-b0d3-a730fd88a1ce_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files781990ee-0f60-4cc7-b0d3-a730fd88a1ce_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files8c1c3b58-28b3-468c-8689-d79d63d2434f_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files8c1c3b58-28b3-468c-8689-d79d63d2434f_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files8c1c3b58-28b3-468c-8689-d79d63d2434f_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files9562c2f9-55b7-4d88-a812-e0374507b09b_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files9562c2f9-55b7-4d88-a812-e0374507b09b_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files9562c2f9-55b7-4d88-a812-e0374507b09b_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Files97aef58f-9427-4fa6-9764-b6388ee63aad_1652589703299.pdf",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Files97aef58f-9427-4fa6-9764-b6388ee63aad_1652589703299.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files97aef58f-9427-4fa6-9764-b6388ee63aad_1652589703299.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesacdc1140-245a-43b0-95a3-825a1a3daa78_43515600_176094339934912_738610581069627392_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filesacdc1140-245a-43b0-95a3-825a1a3daa78_43515600_176094339934912_738610581069627392_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filesacdc1140-245a-43b0-95a3-825a1a3daa78_43515600_176094339934912_738610581069627392_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesb164995c-2a5e-4f58-9e7e-bdd495c1854e_43515600_176094339934912_738610581069627392_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filesb164995c-2a5e-4f58-9e7e-bdd495c1854e_43515600_176094339934912_738610581069627392_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filesb164995c-2a5e-4f58-9e7e-bdd495c1854e_43515600_176094339934912_738610581069627392_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesb7977638-a5bb-4c3d-809b-aacdb7bbab50_123178885_1646263305544822_2673133688521442711_n.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filesb7977638-a5bb-4c3d-809b-aacdb7bbab50_123178885_1646263305544822_2673133688521442711_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filesb7977638-a5bb-4c3d-809b-aacdb7bbab50_123178885_1646263305544822_2673133688521442711_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesbaaedc04-46c6-4ee5-88c1-7855d244d6f4_57574618_410153743100847_539707321287180288_n.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filesbaaedc04-46c6-4ee5-88c1-7855d244d6f4_57574618_410153743100847_539707321287180288_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filesbaaedc04-46c6-4ee5-88c1-7855d244d6f4_57574618_410153743100847_539707321287180288_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesbfcccd7c-f3d5-4a12-a69f-2509d89c8739_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filesbfcccd7c-f3d5-4a12-a69f-2509d89c8739_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filesbfcccd7c-f3d5-4a12-a69f-2509d89c8739_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filescd86f805-52d6-4ee8-bd0d-eb88d18d32fe_57503266_308902036457630_926254064394567680_n.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filescd86f805-52d6-4ee8-bd0d-eb88d18d32fe_57503266_308902036457630_926254064394567680_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filescd86f805-52d6-4ee8-bd0d-eb88d18d32fe_57503266_308902036457630_926254064394567680_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesdb5f23bb-861f-4f78-9100-3f7cfdac226c_1652589703299.pdf",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "Filesdb5f23bb-861f-4f78-9100-3f7cfdac226c_1652589703299.pdf",
       "AssetKind": "All",
@@ -1156,10 +1462,44 @@
       "OriginalItemSpec": "wwwroot\\Filesdb5f23bb-861f-4f78-9100-3f7cfdac226c_1652589703299.pdf"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Fileseyes.jpg01f10f0f-2eee-4604-bc30-ec61b37b1853",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filese1b12d4d-b369-4a13-8b11-575367441ac7_57503266_308902036457630_926254064394567680_n.jpg",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filese1b12d4d-b369-4a13-8b11-575367441ac7_57503266_308902036457630_926254064394567680_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filese1b12d4d-b369-4a13-8b11-575367441ac7_57503266_308902036457630_926254064394567680_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Fileseda82b39-4485-43d0-945c-b4e7eab6fb84_46317793_195925404618472_7468263574381527040_o.jpg",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Fileseda82b39-4485-43d0-945c-b4e7eab6fb84_46317793_195925404618472_7468263574381527040_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Fileseda82b39-4485-43d0-945c-b4e7eab6fb84_46317793_195925404618472_7468263574381527040_o.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Fileseyes.jpg01f10f0f-2eee-4604-bc30-ec61b37b1853",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "Fileseyes.jpg01f10f0f-2eee-4604-bc30-ec61b37b1853",
       "AssetKind": "All",
@@ -1173,10 +1513,27 @@
       "OriginalItemSpec": "wwwroot\\Fileseyes.jpg01f10f0f-2eee-4604-bc30-ec61b37b1853"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\Filesfed2b4a5-b10e-4103-86a7-6bc99d712d28_123178885_1646263305544822_2673133688521442711_n.jpg",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "BasePath": "_content/Multitenant",
+      "RelativePath": "Filesfed2b4a5-b10e-4103-86a7-6bc99d712d28_123178885_1646263305544822_2673133688521442711_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Filesfed2b4a5-b10e-4103-86a7-6bc99d712d28_123178885_1646263305544822_2673133688521442711_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\js\\site.js",
+      "SourceId": "Multitenant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1190,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1207,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1224,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1241,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1258,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1275,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1292,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1309,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1326,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1343,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1360,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1377,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1411,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1428,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1445,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1479,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1496,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1513,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1547,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1564,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1581,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1598,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1615,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1632,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1649,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1683,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1700,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1717,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1734,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1751,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1768,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1785,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1802,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1819,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1836,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1853,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1870,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1887,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1904,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1921,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1938,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1955,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1972,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1989,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2006,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2023,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2040,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2057,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2074,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2091,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2108,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2125,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2142,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Multitenant",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\wwwroot\\",
       "BasePath": "_content/Multitenant",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

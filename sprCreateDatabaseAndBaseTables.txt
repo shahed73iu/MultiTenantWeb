@@ -1,6 +1,6 @@
 USE [MultiTenant]
 GO
-/****** Object:  StoredProcedure [dbo].[sprCreateDatabaseAndBaseTables]    Script Date: 5/16/2022 1:39:41 PM ******/
+/****** Object:  StoredProcedure [dbo].[sprCreateDatabaseAndBaseTables]    Script Date: 05/18/2022 4:52:07 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -47,7 +47,7 @@ BEGIN
 
 			select @cmd2 = 'CREATE TABLE '+ @Name+ '.dbo.[FileStoreInfo](
 			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
-			[AllocateStoreSize] [decimal] NOT NULL,
+			[AllocateStoreSize] [decimal](18,6) NOT NULL,
 			[TenantId] [bigint] NOT NULL,
 			[IsLocked] [bit] NOT NULL)'
 
@@ -55,8 +55,8 @@ BEGIN
 			'CREATE TABLE ' + @Name+ '.[dbo].[FileInfo](
 			[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
 			[FileTypeId] [bigint] NOT NULL,
-			[FileSize] [decimal] NOT NULL,
-			[TenantId] [bit] NOT NULL)'
+			[FileSize] [decimal](18,6) NOT NULL,
+			[TenantId] [bigint] NOT NULL)'
 
 	  exec(@cmd)
 	  exec(@cmd2)

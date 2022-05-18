@@ -13,7 +13,8 @@ namespace Multitenant.Repository
         {
             _context = context;
         }
-        string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
+       // string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
+        string connectionString = "Server=DESKTOP-87Q4097;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
         public DataTable CreateDatabaseAndFileTables(string DBNO, string DBName)
         {
             try
@@ -77,34 +78,38 @@ namespace Multitenant.Repository
             }
         }
 
-        //public DataTable CreateFile(decimal AllocateStoreSize, long TenantId, bool IsLocked, FileTypeId, FileSize)
-        //{
-        //    try
-        //    {
-        //        DataTable dt2 = new DataTable();
-        //        using (var connection = new SqlConnection(connectionString))
-        //        {
-        //            string sql = "dbo.sprCreateDatabaseAndBaseTables";
-        //            using (SqlCommand sqlCmd = new SqlCommand(sql, connection))
-        //            {
-        //                sqlCmd.CommandType = CommandType.StoredProcedure;
-        //                sqlCmd.Parameters.AddWithValue("@DBNO", DBNO);
-        //                sqlCmd.Parameters.AddWithValue("@DBName", DBName);
-        //                connection.Open();
-        //                using (SqlDataAdapter sqlAdapter = new SqlDataAdapter(sqlCmd))
-        //                {
-        //                    sqlAdapter.Fill(dt2);
-        //                }
-        //                connection.Close();
-        //            }
-        //        }
-        //        return dt2;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
-        //}
+        public DataTable CreateFile(long FileTypeId, decimal FileSize, long TenantId, string DatabaseName, decimal AllocateStoreSize, bool IsLocked)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    string sql = "dbo.sprFileInsert";
+                    using (SqlCommand sqlCmd = new SqlCommand(sql, connection))
+                    {
+                        sqlCmd.CommandType = CommandType.StoredProcedure;
+                        sqlCmd.Parameters.AddWithValue("@FileTypeId", FileTypeId);
+                        sqlCmd.Parameters.AddWithValue("@FileSize", FileSize);
+                        sqlCmd.Parameters.AddWithValue("@TenantId", TenantId);
+                        sqlCmd.Parameters.AddWithValue("@DatabaseName", DatabaseName);
+                        sqlCmd.Parameters.AddWithValue("@AllocateStoreSize", AllocateStoreSize);
+                        sqlCmd.Parameters.AddWithValue("@IsLocked", IsLocked);
+                        connection.Open();
+                        using (SqlDataAdapter sqlAdapter = new SqlDataAdapter(sqlCmd))
+                        {
+                            sqlAdapter.Fill(dt);
+                        }
+                        connection.Close();
+                    }
+                }
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public async Task<MessageHelper> CreateApi(TenantDataViewModel model)
         {
             try
@@ -156,6 +161,20 @@ namespace Multitenant.Repository
 
                 List<MultiTenant.Data.TenantInfo> TenantDDL = _context.TenantInfo.ToList();
                 return TenantDDL;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public async Task<string> GetDbName(long TenantId)
+        {
+            try
+            {
+                string DbName =  _context.TenantInfo.Where(x => x.Id == TenantId).Select(x=>x.DatabaseName).FirstOrDefault();
+                return DbName;
             }
             catch (Exception ex)
             {
