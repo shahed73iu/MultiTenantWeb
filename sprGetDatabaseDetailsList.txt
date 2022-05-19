@@ -1,6 +1,6 @@
 USE [MultiTenant]
 GO
-/****** Object:  StoredProcedure [dbo].[sprGetDatabaseDetailsList]    Script Date: 5/19/2022 2:39:54 PM ******/
+/****** Object:  StoredProcedure [dbo].[sprGetDatabaseDetailsList]    Script Date: 5/19/2022 6:39:54 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -14,7 +14,7 @@ GO
 --  EXEC [dbo].[sprGetDatabaseDetailsList] 'DB2'
 
 ALTER PROCEDURE [dbo].[sprGetDatabaseDetailsList]
-	@DatabaseName nvarchar(MAX) = 'DB1'
+	@DatabaseName nvarchar(MAX) = NULL
 AS
 BEGIN
 	SET NOCOUNT ON;
@@ -31,28 +31,31 @@ BEGIN
 	BEGIN
 		DECLARE @TempAutoId BIGINT, @TenantId BIGINT, @DBName NVARCHAR(MAX), @TotalStorage NVARCHAR(MAX)
 		Declare @cmd nvarchar(MAX)
-		DECLARE @temp table (#temp varchar (MAX));
+		CREATE TABLE #temp(tableData varchar (MAX));
 
-		SELECT @TempAutoId = TempAutoId, @TenantId = TenantId, @DBName = DatabaseName, @TotalStorage = TotalStorage 
+		SELECT TOP (1) @TempAutoId = TempAutoId, @TenantId = TenantId, @DBName = DatabaseName, @TotalStorage = TotalStorage 
 		FROM @TABLE 
 		WHERE IsProcessed = 0 
 		ORDER BY TempAutoId ASC
 
-		-- DO LOGIC HERE
+		-- LOGIC HERE
 
-		select @cmd = 'select sum(AllocateStoreSize) from '+@DBName+'.[dbo].[FileStoreInfo]'
-		insert @temp Exec(@cmd)
-		SET @TotalStorage = (select * from @temp )
-		select @TotalStorage
+		select @cmd = 'select CAST(sum(AllocateStoreSize) AS DECIMAL(18,2)) from '+@DBName+'.[dbo].[FileStoreInfo]'
+
+		INSERT INTO #temp Exec(@cmd)
+		SET @TotalStorage = (select tableData from #temp )
 
 		UPDATE @TABLE
-		SET TotalStorage = @TotalStorage 
+		SET TotalStorage =  @TotalStorage + ' GB' 
 		WHERE TempAutoId = @TempAutoId 
 
 		--UPDATE TEMP TABLE HERE
 		UPDATE @TABLE
 		SET IsProcessed = 1
 		WHERE TempAutoId = @TempAutoId
+
+		DROP TABLE #temp
+		--DROP TABLE 
 
 	END
 	SELECT *FROM 	@TABLE
