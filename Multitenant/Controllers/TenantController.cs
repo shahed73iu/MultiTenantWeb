@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Multitenant.Helper;
 using Multitenant.Models;
 using Multitenant.Repository;
 using Newtonsoft.Json;
-
+using System.Data;
 
 namespace Multitenant.Controllers
 {
@@ -49,7 +50,7 @@ namespace Multitenant.Controllers
                     string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
                     await model.inputFile.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
                     decimal FileSize = new System.IO.FileInfo(serverFolder).Length;
-                    var AllocatedSize = (decimal) Helper.BytesToGigabytes((int)FileSize);
+                    var AllocatedSize = (decimal) HelperCon.BytesToGigabytes((int)FileSize);
 
                     var DbName = await _tenantDataService.GetDbName(model.TenantId);
                     if ((DbName == null) || (DbName.Length == 0))
@@ -68,6 +69,16 @@ namespace Multitenant.Controllers
             }
 
             return Ok();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetDBNamesList(string? DbName)
+        {
+            DataTable data = _tenantDataService.DatabaseNameListWithAllocatedSize(DbName);
+
+            List<GetDbViewModel> dataList = ConvertDataTableToList.Convert<GetDbViewModel>(data);
+
+            return View(dataList);
         }
     }
 }

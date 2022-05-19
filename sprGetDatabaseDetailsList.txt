@@ -1,0 +1,60 @@
+USE [MultiTenant]
+GO
+/****** Object:  StoredProcedure [dbo].[sprGetDatabaseDetailsList]    Script Date: 5/19/2022 2:39:54 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+
+--  EXEC [dbo].[sprGetDatabaseDetailsList] 'DB2'
+
+ALTER PROCEDURE [dbo].[sprGetDatabaseDetailsList]
+	@DatabaseName nvarchar(MAX) = 'DB1'
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	DECLARE @TABLE TABLE(TempAutoId BIGINT IDENTITY(1,1),TenantId BIGINT, DatabaseName NVARCHAR(MAX), TotalStorage NVARCHAR(MAX), IsProcessed BIT)
+
+	INSERT INTO @TABLE
+	select Id, DatabaseName, '0 GB', 0 
+	from MultiTenant.dbo.TenantInfo 
+	where (@DatabaseName IS NULL OR @DatabaseName = '' OR DatabaseName = @DatabaseName)
+	group by Id, DatabaseName
+
+	WHILE((SELECT COUNT(*) FROM @TABLE WHERE IsProcessed = 0) > 0)
+	BEGIN
+		DECLARE @TempAutoId BIGINT, @TenantId BIGINT, @DBName NVARCHAR(MAX), @TotalStorage NVARCHAR(MAX)
+		Declare @cmd nvarchar(MAX)
+		DECLARE @temp table (#temp varchar (MAX));
+
+		SELECT @TempAutoId = TempAutoId, @TenantId = TenantId, @DBName = DatabaseName, @TotalStorage = TotalStorage 
+		FROM @TABLE 
+		WHERE IsProcessed = 0 
+		ORDER BY TempAutoId ASC
+
+		-- DO LOGIC HERE
+
+		select @cmd = 'select sum(AllocateStoreSize) from '+@DBName+'.[dbo].[FileStoreInfo]'
+		insert @temp Exec(@cmd)
+		SET @TotalStorage = (select * from @temp )
+		select @TotalStorage
+
+		UPDATE @TABLE
+		SET TotalStorage = @TotalStorage 
+		WHERE TempAutoId = @TempAutoId 
+
+		--UPDATE TEMP TABLE HERE
+		UPDATE @TABLE
+		SET IsProcessed = 1
+		WHERE TempAutoId = @TempAutoId
+
+	END
+	SELECT *FROM 	@TABLE
+
+END

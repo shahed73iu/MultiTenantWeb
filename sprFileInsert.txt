@@ -1,0 +1,40 @@
+USE [MultiTenant]
+GO
+/****** Object:  StoredProcedure [dbo].[sprFileInsert]    Script Date: 5/19/2022 3:56:35 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[sprFileInsert]
+	-- Add the parameters for the stored procedure here
+	@FileTypeId bigint,
+	@FileSize decimal(18,6), 
+	@TenantId bigint,
+	@DatabaseName nvarchar(MAX),
+	@AllocateStoreSize decimal(18,6),
+	@IsLocked bit
+AS
+BEGIN
+	SET NOCOUNT ON;
+    declare @autoId bigint
+		Declare @cmd2 nvarchar(MAX)
+		select @cmd2 = 'insert into '+@DatabaseName+
+		'.dbo.FileInfo (FileTypeId, FileSize, TenantId) values ('
+		+CAST(@FileTypeId as nvarchar(MAX))+
+		','+CAST(@FileSize as nvarchar(MAX))+
+		','+CAST(@TenantId as nvarchar(MAX))+')'
+		exec(@cmd2)		
+
+		Declare @cmd3 nvarchar(MAX)
+		select @cmd3 = 'insert into '+@DatabaseName+
+		'.dbo.FileStoreInfo (AllocateStoreSize, TenantId, IsLocked) values ('
+		+CAST(@AllocateStoreSize as nvarchar(MAX))+
+		','+CAST(@TenantId as nvarchar(MAX))+
+		','+CAST(@IsLocked as nvarchar(MAX))+')'
+		exec(@cmd3)		
+END

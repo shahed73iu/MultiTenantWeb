@@ -13,8 +13,8 @@ namespace Multitenant.Repository
         {
             _context = context;
         }
-       // string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
-        string connectionString = "Server=DESKTOP-87Q4097;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
+       string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
+        //string connectionString = "Server=DESKTOP-87Q4097;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
         public DataTable CreateDatabaseAndFileTables(string DBNO, string DBName)
         {
             try
@@ -110,6 +110,35 @@ namespace Multitenant.Repository
                 throw ex;
             }
         }
+
+        public DataTable DatabaseNameListWithAllocatedSize(string? DbName)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    string sql = "dbo.sprGetDatabaseDetailsList";
+                    using (SqlCommand sqlCmd = new SqlCommand(sql, connection))
+                    {
+                        sqlCmd.CommandType = CommandType.StoredProcedure;
+                        sqlCmd.Parameters.AddWithValue("@DatabaseName", DbName);
+                        connection.Open();
+                        using (SqlDataAdapter sqlAdapter = new SqlDataAdapter(sqlCmd))
+                        {
+                            sqlAdapter.Fill(dt);
+                        }
+                        connection.Close();
+                    }
+                }
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task<MessageHelper> CreateApi(TenantDataViewModel model)
         {
             try
