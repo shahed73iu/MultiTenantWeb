@@ -13,8 +13,8 @@ namespace Multitenant.Repository
         {
             _context = context;
         }
-       string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
-        //string connectionString = "Server=DESKTOP-87Q4097;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
+       //string connectionString = "Server=SHAHED\\SQLEXPRESS;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
+        string connectionString = "Server=DESKTOP-87Q4097;Database=MultiTenant;Trusted_Connection=True;MultipleActiveResultSets=true";
         public DataTable CreateDatabaseAndFileTables(string DBNO, string DBName)
         {
             try

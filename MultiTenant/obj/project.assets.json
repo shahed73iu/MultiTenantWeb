@@ -10073,11 +10073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\Multitenant.csproj",
+      "projectUniqueName": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\Multitenant.csproj",
       "projectName": "Multitenant",
-      "projectPath": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\Multitenant.csproj",
+      "projectPath": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\Multitenant.csproj",
       "packagesPath": "C:\\Users\\SHAHED\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SHAHED\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\",
+      "outputPath": "C:\\Users\\SHAHED\\Dropbox\\My PC (DESKTOP-87Q4097)\\Desktop\\MultiTenantWeb\\Multitenant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
